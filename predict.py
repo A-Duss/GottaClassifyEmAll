@@ -48,7 +48,7 @@ if __name__ == '__main__':
     
     
     ## Required parameters
-    parser.add_argument("--img_path", default="./data/sample_imgs/01abra.jpg", type=str, required=False,
+    parser.add_argument("--img_path", type=str, required=True,
                         help="The path to the image to classify.")
     parser.add_argument("--model_dir", default="./model", type=str, required=False,
                         help="The directory where the model checkpoints are stored.")
