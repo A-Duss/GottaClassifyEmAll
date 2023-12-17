@@ -13,6 +13,8 @@ Feel free to try it out on my [demo hosted on Spaces](https://huggingface.co/spa
 
 ## Usage
 
+### Setup
+
 1. Clone this repository:
 
    ```bash
