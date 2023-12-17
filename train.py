@@ -51,8 +51,8 @@ if __name__ == '__main__':
     
     
     ## Required parameters
-    parser.add_argument("--data_dir", default="./data/dataset", type=str, required=False,
-                        help="The input dataset directory. Should contain an eponymous folder for each pokemon, containing more than 50 images of said pokemon.")
+    #parser.add_argument("--data_dir", default="./data/dataset", type=str, required=False,
+    #                    help="The input dataset directory. Should contain an eponymous folder for each pokemon, containing more than 50 images of said pokemon.")
     parser.add_argument("--model_dir", default="./model", type=str, required=False,
                         help="The output directory where the model checkpoints will be written.")
     parser.add_argument("--data_augmentation", action='store_true',
@@ -63,7 +63,8 @@ if __name__ == '__main__':
     
     
     # Load dataset
-    dataset = load_dataset("imagefolder", data_dir=args.data_dir, download_mode="force_redownload")
+    #dataset = load_dataset("imagefolder", data_dir=args.data_dir, download_mode="force_redownload")
+    dataset = load_dataset("Dusduo/1stGen-Pokemon-Images")
     print("Training data loaded!")
     # Split dataset into training and test set
     dataset = dataset['train'].train_test_split(test_size=0.2, seed=42)
