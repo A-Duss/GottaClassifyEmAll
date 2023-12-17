@@ -7,6 +7,10 @@ This repository contains a script to fine-tune a transformer encoder model for P
 
 The final model is able to discriminate between the pokemons from the [1st Generation](https://en.wikipedia.org/wiki/List_of_generation_I_Pok%C3%A9mon). And tell when the provided images are not pokemons, or at least when it is unable to recognize them (e.g. pokemons from posterior generations).
 
+Feel free to try it out on my [demo hosted on Spaces](https://huggingface.co/spaces/Dusduo/GottaClassifyEmAll)!
+
+<img width="1268" src="demo.png" style="border-radius:0.5%">
+
 ## Usage
 
 1. Clone this repository:
@@ -62,7 +66,6 @@ It achieves the following results on the evaluation set:
 - Loss: 0.4182
 - F1: 0.9272
 
-Feel free to try it out on my [demo hosted on Spaces](https://huggingface.co/spaces/Dusduo/GottaClassifyEmAll)!
+Don't forget to try out my [demo hosted on Spaces](https://huggingface.co/spaces/Dusduo/GottaClassifyEmAll)!
 
-<img width="1268" src="demo.png" style="border-radius:0.5%">
 
