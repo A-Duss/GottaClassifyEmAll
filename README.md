@@ -70,4 +70,4 @@ It achieves the following results on the evaluation set:
 
 Don't forget to try out my [demo hosted on Spaces](https://huggingface.co/spaces/Dusduo/GottaClassifyEmAll)!
 
-
+![](demo.gif)
